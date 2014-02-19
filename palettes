@@ -1,35 +1,3 @@
-cake-erl
-========
-
-Cake is a very simple library to assist with colorization
-of console (terminal) output using terminal escape codes.
-
-## Have your cake
-
-To change the foreground color:
-
-```erlang
-io:format("~s~n", [cake:fg(blue,"Hello")]).
-```
-
-To change the background color:
-```erlang
-io:format("~s~n", [cake:bg(green,"World!")]).
-```
-
-To change text style:
-```erlang
-io:format("Hello ~s~n", [cake:ta(bold,"World!")]).
-```
-
-It is also possible to use numeric color codes with the cake:fg/2 and cake:bg/2
-functions.
-
-## And eat it too
-
-For a sprinkle of happiness in your console apps:
-
-```escript
 #!/usr/bin/env escript
 %%! -pa ebin
 %% File: palettes
@@ -100,13 +68,5 @@ split(N,L) when is_list(L) ->
         false -> L;
         true -> {H,Rest} = lists:split(N,L), [H] ++ split(N,Rest)
     end.
-
-```
-
-## Enjoy!
-
-A gratuitous piece of cake:
-
-![Cake in action](screenshot.png)
 
 

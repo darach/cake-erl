@@ -1,0 +1,11 @@
+{application, cake, [
+    {description, "Really simple library to tart up terminal output."},
+    {vsn, "1"},
+    {modules, []},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+        ]},
+    {env, []}
+]}.
