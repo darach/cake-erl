@@ -1,4 +1,5 @@
-cake-erl
+**cake-erl** [![Build Status](https://travis-ci.org/darach/cake-erl.png)](https://travis-ci.org/darach/cake-erl)
+
 ========
 
 Cake is a very simple library to assist with colorization
